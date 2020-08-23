@@ -11,7 +11,7 @@ export default function Navigation() {
       </div>
 
       <ul className="navigation-links">
-        <li className="navigation-links-item">Home</li>
+        <li className="navigation-links-item active">Home</li>
         <li className="navigation-links-item">Videos</li>
         <li className="navigation-links-item">Playlist</li>
         <li className="navigation-links-item">Community</li>

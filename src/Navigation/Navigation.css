@@ -1,15 +1,58 @@
 .navigation {
   position: absolute;
   left: 0;
-  top: 180px;
+  top: 280px;
   width: 100%;
-  height: 100px;
+  height: 200px;
   background: #FFF;
   box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
 }
-.navigation .navigation-profile {}
-.navigation .navigation-profile .navigation-profile-image {}
-.navigation .navigation-profile .navigation-profile-name {}
+.navigation .navigation-profile {
+  flex: 1;
+  padding: 20px 80px;
+  display: flex;
+  align-items: center;
+}
+.navigation .navigation-profile .navigation-profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #E1E1E1;
+}
+.navigation .navigation-profile .navigation-profile-name {
+  padding-left: 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
 
-.navigation .navigation-links {}
-.navigation .navigation-links .navigation-links-item {}
+.navigation .navigation-links {
+  display: flex;
+  list-style-type: none;
+  padding: 0px 80px;
+}
+
+.navigation .navigation-links .navigation-links-item {
+  flex: 1;
+  text-transform: uppercase;
+  padding: 16px;
+  cursor: pointer;
+  text-align: center;
+  transition: background .4s;
+  position: relative;
+}
+
+.navigation .navigation-links .navigation-links-item:hover {
+  background: #F1F1F1;
+}
+
+.navigation .navigation-links .navigation-links-item.active::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background: #989898;
+}

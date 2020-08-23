@@ -8,8 +8,5 @@
 .space {
   height: 2000px;
   background: #F1F1F1;
-  padding-top: 300px;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-bottom: 40px;
+  padding: 500px 80px 40px 80px;
 }
