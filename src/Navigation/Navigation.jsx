@@ -6,7 +6,7 @@ import "./Navigation.css";
 export default function Navigation({ scrollY }) {
   return (
     <div className="navigation" style={{
-      top: interpolate(scrollY, [0, 400], [280, -150], { extrapolate: "clamp" }),
+      top: interpolate(scrollY, [0, 430], [280, -150], { extrapolate: "clamp" }),
     }}>
       <div className="navigation-profile">
         <div className="navigation-profile-image"></div>

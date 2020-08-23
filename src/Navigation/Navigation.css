@@ -11,13 +11,13 @@
 }
 .navigation .navigation-profile {
   flex: 1;
-  padding: 20px 80px;
+  padding: 20px 200px;
   display: flex;
   align-items: center;
 }
 .navigation .navigation-profile .navigation-profile-image {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   background: #E1E1E1;
 }
@@ -30,7 +30,7 @@
 .navigation .navigation-links {
   display: flex;
   list-style-type: none;
-  padding: 0px 80px;
+  padding: 0px 200px;
 }
 
 .navigation .navigation-links .navigation-links-item {

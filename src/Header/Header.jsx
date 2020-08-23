@@ -1,6 +1,6 @@
 import React from "react";
 // import { interpolate } from "react-uicomp";
-import Banner from "./Banner.png";
+import Banner from "./Banner.jpg";
 import "./Header.css";
 
 export default function Header({ scrollY }) {
